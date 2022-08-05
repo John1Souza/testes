@@ -15,15 +15,16 @@
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #84E1AD;
+    background-color: #C5EBD6;
     margin: auto;
+    
 }
 
 header {    
     background-image: linear-gradient(to bottom, #08b455,  #0c2e1b);
     margin: auto;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 header > h1 {
     font-family: var(--fonte-padrão);
@@ -65,13 +66,20 @@ nav > a:hover {
 
 }
 main {
-    max-width: 1000px;
+    max-width: 950px;
     background-color: white;    
-    margin: auto;  
+    margin: auto; 
+    padding: 20px; 
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.39);
+    
+    
 }
 main > article > h1 {
     font-family: "Android";
-    font-size: 1.8em;
+    font-size: 1.85em;
     font-weight: normal;
     color: rgb(1, 54, 1); 
     padding-left: 10px; 
@@ -86,8 +94,47 @@ main > article > h2 {
     padding-left: 10px;    
     background-image: linear-gradient(to right, #84E1AD, white);
 }
-main > article > p {  
+main > article > p { 
+    font-size: 1em; 
     text-align: justify;  
     text-indent: 20px;
-    padding: 20px;   
+    line-height: 30px;    
+    padding: 30px;   
+}
+footer {
+    font-size: 12px;
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+}
+.bottom {
+    text-align: justify;
+    background-color: #83E1AD;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: auto;
+
+}
+.bottom > h2 {
+    font-size: 1.3em;
+    font-weight: bolder;
+    background-color: #1A5C37;
+    color: white;
+    border-radius: 10px 10px 0px 0px ;
+    padding-left: 15px;
+    padding: 10px;
+}
+.bottom > p {
+    font-size: 0.95em;    
+    text-indent: 15px;
+    line-height: 1.5em;
+    padding: 15px;
+        
+}
+.final {
+    text-align: justify;
+    text-indent: 15px;
+    padding: 10px;
 }
